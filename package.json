@@ -1,0 +1,43 @@
+{
+  "name": "backend-node-boilerplate",
+  "version": "1.0.0",
+  "description": "backend node boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "local": "nodemon src --legacy-watch src",
+    "prod": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seveun/backend-node-boilerplate.git"
+  },
+  "author": "matehis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seveun/backend-node-boilerplate/issues"
+  },
+  "homepage": "https://github.com/seveun/backend-node-boilerplate#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "moment": "^2.27.0",
+    "moment-timezone": "^0.5.31",
+    "node-cron": "^2.0.3",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2",
+    "sequelize": "^5.21.6",
+    "uuid": "^8.3.0"
+  },
+  "optionalDependencies": {
+    "pg": "^8.3.2",
+    "mysql2": "^2.1.0",
+    "pg-hstore": "^2.3.3"
+  }
+}

@@ -1,0 +1,12 @@
+exports.renderOk = (res, content) => res.status(200).json(content);
+exports.renderCreated = (res, content) => res.status(201).json(content);
+exports.rendrenderDeletederOk = (res, message) => res.status(200).json({ results: null, message });
+exports.renderBadRequest = (res, content) => res.status(400).json(content);
+exports.renderUnauthorized = (res, content) => res.status(401).json(content);
+exports.renderForbidden = (res, content) => res.status(403).json(content);
+exports.renderNotFound = (res, content) => res.status(404).json(content);
+exports.renderConflict = (res, content) => res.status(409).json(content);
+exports.renderInternalServerError = (res, content) => res.status(500).json(content);
+exports.renderBadGateway = (res, content) => res.status(502).json(content);
+exports.renderServiceUnavailable = (res, content) => res.status(503).json(content);
+exports.renderRedirect = (res, url) => res.redirect(url);
